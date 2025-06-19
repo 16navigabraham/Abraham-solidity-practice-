@@ -15,7 +15,7 @@ contract NAVIGTest is Test {
         navigToken = new NAVIG(1_000_000 * 10 ** 18); // Initial supply of 1 million tokens
     }
 
-    function testInitialSupply() public {
+    function testInitialSupply() public view {
         assertEq(navigToken.totalSupply(), 1_000_000 * 10 ** 18);
         assertEq(navigToken.balanceOf(address(this)), 1_000_000 * 10 ** 18);
     }
