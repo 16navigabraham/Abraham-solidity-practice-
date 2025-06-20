@@ -1,6 +1,6 @@
  [profile.default]
    solc_version = "0.8.30"
-   use_system_solc = true
+   use_system_solc = true,
 
 optimizer = true
 optimzer-runs = 200
