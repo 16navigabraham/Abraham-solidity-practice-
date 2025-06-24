@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Abraham Solidity Practice
 
 This repository contains my personal practice projects and smart contract exercises as I learn and build with Solidity and Foundry. It includes basic contract examples, testing, and deployment setups.
@@ -95,4 +94,3 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
->>>>>>> 0c3052346e39830ba95226c238dbc43cfff77d4f
