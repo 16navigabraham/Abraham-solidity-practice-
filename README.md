@@ -26,7 +26,7 @@ This repository contains my personal practice projects and smart contract exerci
 📬 Contact
 
 Feel free to connect or reach out:  
-X (Twitter): [@AbrahamNAVIG](https://x.com/AbrahamNAVIG1)
+X (Twitter): [@AbrahamNAVIG1](https://x.com/AbrahamNAVIG1)
 =======
 ## Foundry
 
