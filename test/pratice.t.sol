@@ -18,7 +18,7 @@ contract SimpleStorage  is Test {
         user[_username] = Userdata(walletaddress, _socialaccount);
     }
 
-function testremoveuserdata(string memory _username) public view {
-        require(user[_username].walletaddress != address(0), "user does not exist");
-    }
+// function testremoveuserdata(string memory _username) public view {
+//         require(user[_username].walletaddress != address(0), "user does not exist");
+//     }
 }

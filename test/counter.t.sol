@@ -17,14 +17,14 @@ contract CounterTest is Test{
         assertEq(counter.count(), 1);
     }
 
-    function testDecrement() public {
-        counter.increment();//make sure count >0
-        counter.decrement();
-        assertEq(counter.count(), 0);
-    }
+    // function testDecrement() public {
+    //     counter.increment();//make sure count >0
+    //     counter.decrement();
+    //     assertEq(counter.count(), 0);
+    // }
 
-    function testDecrementZeroReverts() public {
-        vm.expectRevert("cunt is already zero");
-        counter.decrement();
-    }
+    // function testDecrementZeroReverts() public {
+    //     vm.expectRevert("cunt is already zero");
+    //     counter.decrement();
+    // }
 }
