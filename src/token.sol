@@ -13,8 +13,12 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
             _mint(to, amount);
             }
 
-            // function burn(uint256 amount) external{
-            //     _burn(msg.sender,amount);
-            // }
-        }
+            function burn(uint256 amount) external{
+                 _burn(msg.sender,amount);
+            }
 
+            function approve(address spender, uint256 amount) public override returns (bool) {
+        _approve(_msgSender(), spender, amount);
+        return true;
+        }
+ }
