@@ -1,15 +1,17 @@
- [profile.default]
-   solc_version = "0.8.30"
-   use_system_solc = true
-
+[profile.default]
+solc_version = "0.8.30"
+use_system_solc = true
 optimizer = true
-optimzer-runs = 200
+optimizer_runs = 200  # Fixed typo and hyphen
 out = "out"
 src = "src"
 test = "test"
 libs = ["lib"]
 remappings = [
-  "some/other=lib/some-other/",
-  "@openzeppelin/=lib/openzeppelin-contracts/"
+    "some/other=lib/some-other/",
+    "@openzeppelin/=lib/openzeppelin-contracts/"
 ]
+
+[lint]
+exclude_lints = ["unaliased-plain-import"]
 
